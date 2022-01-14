@@ -27,9 +27,14 @@
       text-align: center;
     }
   </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayhandler(this);
+  ">
   <ol>
     <li><a href="1.html" class="saw">HTML</a></li>
     <li><a href="2.html" class="saw" id="active">CSS</a></li>
